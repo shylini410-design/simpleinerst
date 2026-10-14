@@ -1,7 +1,7 @@
-from simpleinterst import simple_interst
+from simpleinterest import simple_interest
 
 def test_SI():
-    assert simple_interst(2000,6,10) == 1200 
+    assert simple_interest(2000,6,10) == 1200 
 
 def test_SIzero():
-    assert simple_interst(10000,0,0) == 0 
+    assert simple_interest(10000,0,0) == 0 
